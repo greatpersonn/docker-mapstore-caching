@@ -1,0 +1,12 @@
+hazelcast:
+  cluster-name: dev
+
+  map:
+    counters-map:
+      backup-count: 1
+      async-backup-count: 0
+      map-store:
+        enabled: true
+        class-name: com.example.CounterMapStore
+        write-delay-seconds: 0
+        initial-mode: EAGER
