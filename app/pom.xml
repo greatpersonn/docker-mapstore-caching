@@ -5,7 +5,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.example</groupId>
+    <groupId>com.kpi</groupId>
     <artifactId>hazelcast-counter</artifactId>
     <version>1.0</version>
 
@@ -45,7 +45,7 @@
                             <transformers>
                                 <transformer
                                   implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>com.example.Main</mainClass>
+                                    <mainClass>com.kpi.Main</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
